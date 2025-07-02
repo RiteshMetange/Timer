@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Timer</string>
+    <string name="triology_innovation_internship">Triology Innovation Internship</string>
+    <string name="loading">Loading...</string>
+    <string name="Loading">Loading</string>
+    <string name="header_image">Header Image</string>
+</resources>

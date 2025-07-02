@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backgrounds -->
+    <color name="background_primary">#0B0C10</color> <!-- Very dark gray/black -->
+    <color name="background_secondary">#1F2833</color> <!-- Dark blue-gray -->
+
+    <!-- Text colors -->
+    <color name="text_primary">#FFFFFF</color> <!-- Pure white for main text -->
+    <color name="text_secondary">#C5C6C7</color> <!-- Light gray for secondary text -->
+    <color name="text_disabled">#6F6F6F</color> <!-- Disabled text, dimmed gray -->
+
+    <!-- Accent colors -->
+    <color name="accent_red">#FF3B3B</color> <!-- Bright red for highlights / alerts -->
+    <color name="accent_orange">#FF8F3F</color> <!-- Orange for highlights -->
+    <color name="accent_blue">#5DADE2</color> <!-- Soft blue accents -->
+
+    <!-- Shadows and overlays -->
+    <color name="shadow">#00000080</color> <!-- Black with 50% opacity -->
+    <color name="overlay_dark">#121212</color> <!-- Dark overlay for depth -->
+
+    <!-- Special / system colors -->
+    <color name="system_success">#3BB143</color> <!-- Green success -->
+    <color name="system_warning">#FFA500</color> <!-- Warning orange -->
+    <color name="system_error">#FF3B3B</color> <!-- Error red -->
+</resources>
