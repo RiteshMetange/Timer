@@ -13,6 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
     TextView countdownText;
@@ -83,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
             long minutes = (difference / (1000 * 60)) % 60;
             long seconds = (difference / 1000) % 60;
 
-            String countdown = String.format("%d Days\n%02d Hr : %02d Min : %02d Sec", days, hours, minutes, seconds);
+            String countdown = String.format(Locale.US,"%d Days\n%02d Hr : %02d Min : %02d Sec", days, hours, minutes, seconds);
 
 
             countdownText.setText(countdown);
