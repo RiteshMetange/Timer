@@ -55,22 +55,7 @@ public class MainActivity extends AppCompatActivity {
         handler.removeCallbacks(runnable);
     }
 
-            /*
-                private void openDatePicker() {
-                    final Calendar calendar = Calendar.getInstance();
-                    DatePickerDialog datePickerDialog = new DatePickerDialog(
-                            this,
-                            (view, year, month, dayOfMonth) -> {
-                                calendar.set(year, month, dayOfMonth, 9, 0, 0);
-                                targetDate = calendar.getTime();
-                            },
-                            calendar.get(Calendar.YEAR),
-                            calendar.get(Calendar.MONTH),
-                            calendar.get(Calendar.DAY_OF_MONTH)
-                    );
-                     datePickerDialog.show();
-    }
-*/
+
 
     @SuppressLint("SetTextI18n")
     private void updateCountdown() {
